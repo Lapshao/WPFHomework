@@ -8,6 +8,7 @@ namespace Homework.Helper
 {
     internal class ClassDB
     {
-        public static LoginFramesEntities entity = new LoginFramesEntities();
+        public static DB1Entities entity = new DB1Entities();
+        
     }
 }

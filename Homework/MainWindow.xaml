@@ -12,8 +12,7 @@
             <RowDefinition Height="400"/>
         </Grid.RowDefinitions>
 
-        <Frame x:Name="frmAuth" Grid.Row="1"/>
-        <TextBlock Text="Hello ISP11-36" x:Name="txbcTextBlock" Style="{StaticResource txbTitle}"/>
+        <Frame x:Name="frmAuth" Grid.Row="1" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Window>

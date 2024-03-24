@@ -1,0 +1,16 @@
+﻿<Page x:Class="Homework.Student"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Homework"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Student">
+
+    <Grid>
+        <TextBlock TextWrapping="Wrap" Text="Вы вошли как студент" FontSize="32" Foreground="BlueViolet" Margin="239,0,217,0" Height="200" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="386,386,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Page>

@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Homework.Helper;
 
 namespace Homework
 {
@@ -24,8 +25,8 @@ namespace Homework
         {
             InitializeComponent();
             ClassFrame.frameAuth = frmAuth;
+            frmAuth.Content = new Auth();
 
-            ClassFrame.frameAuth.Content = new Auth();
         }
     }
 }

@@ -32,8 +32,17 @@ namespace Homework
 
             if (user.IdRole == 1)
             {
-                MessageBox.Show("You enter to the system as Administator");
+                ClassFrame.frameAuth.Content = new Admin();
             }
+            else if (user.IdRole == 2)
+            {
+                ClassFrame.frameAuth.Content = new Userrr();
+            }
+            else if (user.IdRole == 3)
+            {
+                ClassFrame.frameAuth.Content = new Student();
+            }
+            
         }
     }
 }

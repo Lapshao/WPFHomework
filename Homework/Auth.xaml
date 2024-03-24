@@ -8,9 +8,9 @@
       d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="0,120,0,120" Width="346">
-            <TextBox x:Name="txbLogin" TextWrapping="Wrap" Width="200" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
-            <PasswordBox x:Name="psbPassword" Width="200" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
-            <Button x:Name="btnLogIn" Content="Log In" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Width="200" Height="20" Background="White" Click="btnLogIn_Click">
+            <TextBox x:Name="txbLogin" TextWrapping="Wrap" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+            <PasswordBox x:Name="psbPassword" Width="150" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="5"/>
+            <Button x:Name="btnLogIn" Content="Log In" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="5" Width="150" Height="20" Background="#FFD4D4D4" Click="btnLogIn_Click" BorderBrush="#FFD4D4D4">
 
             </Button>
         </StackPanel>
