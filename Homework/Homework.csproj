@@ -64,10 +64,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Admin.xaml.cs">
+    <Compile Include="Frames\Admin.xaml.cs">
       <DependentUpon>Admin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Auth.xaml.cs">
+    <Compile Include="Frames\Auth.xaml.cs">
       <DependentUpon>Auth.xaml</DependentUpon>
     </Compile>
     <Compile Include="ClassFrame.cs" />
@@ -108,7 +108,7 @@
     <Compile Include="Role.cs">
       <DependentUpon>DB1Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="Student.xaml.cs">
+    <Compile Include="Frames\Student.xaml.cs">
       <DependentUpon>Student.xaml</DependentUpon>
     </Compile>
     <Compile Include="TypeProduct.cs">
@@ -117,14 +117,14 @@
     <Compile Include="User.cs">
       <DependentUpon>DB1Model.tt</DependentUpon>
     </Compile>
-    <Compile Include="User.xaml.cs">
+    <Compile Include="Frames\User.xaml.cs">
       <DependentUpon>User.xaml</DependentUpon>
     </Compile>
-    <Page Include="Admin.xaml">
+    <Page Include="Frames\Admin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Auth.xaml">
+    <Page Include="Frames\Auth.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -140,11 +140,11 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Student.xaml">
+    <Page Include="Frames\Student.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="User.xaml">
+    <Page Include="Frames\User.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

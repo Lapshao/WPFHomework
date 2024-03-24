@@ -30,19 +30,28 @@ namespace Homework
         {
             var user = ClassDB.entity.User.Where(i => i.Login == txbLogin.Text && i.Password == psbPassword.Password).FirstOrDefault();
 
-            if (user.IdRole == 1)
+            if (user == null)
             {
+                MessageBox.Show("Введен неверный логин или пароль!");
+                psbPassword.Clear();
+                return;
+            }
+            else if (user.IdRole == 1)
+            {
+                MessageBox.Show("Вы авторизовались как Администратор");
                 ClassFrame.frameAuth.Content = new Admin();
             }
             else if (user.IdRole == 2)
             {
-                ClassFrame.frameAuth.Content = new Userrr();
+                MessageBox.Show("Вы авторизовались как пользователь");
+                ClassFrame.frameAuth.Content = new Userr();
             }
             else if (user.IdRole == 3)
             {
+                MessageBox.Show("Вы авторизовались как Студент");
                 ClassFrame.frameAuth.Content = new Student();
             }
-            
         }
+        
     }
 }

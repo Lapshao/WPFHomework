@@ -18,9 +18,9 @@ namespace Homework
     /// <summary>
     /// Логика взаимодействия для User.xaml
     /// </summary>
-    public partial class Userrr : Page
+    public partial class Userr : Page
     {
-        public Userrr()
+        public Userr()
         {
             InitializeComponent();
         }
